@@ -1,0 +1,144 @@
+div.jumbotron {
+  background-image: url('/img/Project_Header_Image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-blend-mode: multiply;
+  background-color: #666;
+  margin: 0 auto;
+}
+
+.topTriangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 75%;
+}
+
+.topTriangleText {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  margin-bottom: 70px;
+  margin-right: 70px;
+}
+
+.topTriangleText h4 {
+  font-size: 32px;
+}
+
+.topTriangleText h2 {
+  font-size: 48px;
+  color: #fff;
+  width: 60%;
+  float: right;
+}
+
+.containArticleText {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.AtAGlanceWholeArea {
+  margin: 0 auto;
+  height: 340px;
+}
+
+article {
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+aside {
+  background-color: #f6f6f6;
+  height: 100%;
+}
+
+.specs {
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.specs div {
+  padding-left: 25px;
+}
+
+.borderTopYellow {
+    position: relative;
+    padding-top: 13px;
+}
+
+.borderTopYellow::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1;
+    border-top: 2px solid #ffd400;
+    content: "";
+}
+
+aside h4 {
+  margin-top: 20px;
+}
+
+aside p {
+  max-width: 25%;
+}
+
+figure {
+  clear: both;
+}
+
+figure div {
+  text-align: center;
+}
+
+figure div img {
+  width: 60%;
+}
+
+.figArea1 {
+  background-color: #404042;
+}
+
+.figArea2 {
+  background-color: #fff;
+}
+
+.figArea3 {
+  background-color: #BC3134;
+}
+
+section {
+  max-width: 100%;
+}
+
+.sectionTriangle {
+  position: relative;
+  margin-top: -65px;
+  width: 80%;
+  z-index: 10;
+  height: 60%;
+}
+
+section h3 {
+  position: relative;
+  top:0;
+  left: 0;
+  z-index: 100;
+  color: #fff;
+}
+
+.sectionBotImg {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
