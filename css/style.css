@@ -140,7 +140,7 @@ section {
 }
 
 .triArea {
-  background-image: linear-gradient(to left, #f1eff0, #f7f7f7, #f8f8f8);
+  background-image: linear-gradient(to left, #f1eff0, #f6f6f6, #fafafa, #f8f8f8, #f8f8f8, #f8f8f8);
 }
 
 .sectionTriangle {
@@ -189,7 +189,26 @@ section h3 {
   margin-right: 10%;
 }
 
+.HOLDER div {
+  padding: 0;
+}
 
+.HOLDERtext {
+  margin: 100px auto 0 auto;
+  max-width: 60%;
+}
+
+.HOLDERimg img {
+  max-width: 40%;
+  margin: 0 auto;
+  float: right;
+}
+
+footer {
+  background-color: #333333;
+  color: #fff;
+  min-height: 250px;
+}
 
 
 
@@ -217,4 +236,12 @@ section h3 {
     .pull-right-sm {
         float: right;
     }
+    .align-right-sm {
+      text-align: right;
+    }
 }
+
+
+a:not(.default):link    { color: #ffd401; }
+a:not(.default):visited { color: #ffd401; }
+a:not(.default):hover { text-decoration: none;}
