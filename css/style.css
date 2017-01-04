@@ -10,6 +10,10 @@ div.jumbotron {
   margin: 0 auto;
 }
 
+figure {
+  clear: both;
+}
+
 .topTriangle {
   position: absolute;
   bottom: 0;
@@ -38,15 +42,20 @@ div.jumbotron {
   float: right;
 }
 
+.AtAGlanceWholeArea {
+  margin: 0 auto;
+  /*min-height: 340px;*/
+}
+
 .containArticleText {
   width: 70%;
   margin: 0 auto;
   padding-top: 40px;
+  min-height: 340px;
 }
 
-.AtAGlanceWholeArea {
-  margin: 0 auto;
-  height: 340px;
+.containArticleText h3 {
+  margin-top: 60px;
 }
 
 article {
@@ -56,17 +65,24 @@ article {
 
 aside {
   background-color: #f6f6f6;
-  height: 100%;
+  min-height: 350px;
+  margin: 0 auto;
 }
 
 .specs {
-  padding-top: 40px;
+  /*padding-top: 40px;*/
   margin: 0 auto;
+  min-height: 350px;
 }
 
 .specs div {
   padding-left: 25px;
+  padding-top: 30px;
 }
+
+/*.specs div:first-of-type{
+  padding-top: 40px;
+}*/
 
 .borderTopYellow {
     position: relative;
@@ -83,13 +99,13 @@ aside {
     content: "";
 }
 
-aside h4 {
+/*aside h4 {
   margin-top: 20px;
 }
 
 aside p {
   max-width: 25%;
-}
+}*/
 
 figure {
   clear: both;
@@ -99,19 +115,23 @@ figure div {
   text-align: center;
 }
 
-figure div img {
+.iPhoneImg img {
   width: 60%;
 }
 
-.figArea1 {
+.iPadImg img {
+  width: 40%;
+}
+
+.figAreaGray {
   background-color: #404042;
 }
 
-.figArea2 {
+.figAreaWhite {
   background-color: #fff;
 }
 
-.figArea3 {
+.figAreaRed {
   background-color: #BC3134;
 }
 
@@ -121,24 +141,54 @@ section {
 
 .sectionTriangle {
   position: relative;
-  margin-top: -65px;
-  width: 80%;
+  width: 87%;
   z-index: 10;
-  height: 60%;
+  height: 26%;
 }
 
 section h3 {
-  position: relative;
-  top:0;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: -350px;
   left: 0;
   z-index: 100;
   color: #fff;
+  width: 60%;
+  font-weight: 100;
+  line-height: 1.5;
+  font-size: 32px;
 }
+
+/*.sectionTriangleBotArea{
+  background-image: url("/img/Computer_filler.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 1750px;
+  background-size: contain;
+}*/
 
 .sectionBotImg {
   position: relative;
-  bottom: 0;
+  /*bottom: 0;*/
   left: 0;
   width: 100%;
   z-index: -1;
+}
+
+.endorse {
+  position: absolute;
+  text-align: right;
+  z-index: 100;
+  padding: 0;
+  right: 0;
+  margin-top: -225px;
+  margin-right: 10%;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
