@@ -171,6 +171,16 @@ section h3 {
   background-size: contain;
 }*/
 
+.sectionTriangleBotArea {
+  background-image: url("/img/Project_Triangle_Middle.png"), url("/img/computer_filler.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  /*background-size: auto, contain;*/
+  background-size: 144% 53%, contain;
+  height: 1730px;
+  background-color: #dbd7d8;
+}
+
 .sectionBotImg {
   position: relative;
   /*bottom: 0;*/
