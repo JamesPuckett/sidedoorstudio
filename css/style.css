@@ -139,7 +139,12 @@ section {
 }
 
 .triArea {
-  background-image: linear-gradient(to left, #f1eff0, #f6f6f6, #fafafa, #f8f8f8, #f8f8f8, #f8f8f8);
+  /*background-image: linear-gradient(to left, #f1eff0, #f6f6f6, #fafafa, #f8f8f8, #f8f8f8, #f8f8f8);*/
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))), url('/img/computer_cutoff_top.jpg-1.jpeg');
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, bottom;
+
 }
 
 .sectionTriangle {
