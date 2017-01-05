@@ -240,16 +240,6 @@ section h3 {
   margin-top: 30px;
 }
 
-.footImgDesktop {
-  visibility: visible;
-  display: inline-block;
-}
-
-.footImgMobile {
-  visibility: hidden;
-  display: none;
-}
-
 footer {
   background-color: #333333;
   color: #fff;
@@ -303,7 +293,15 @@ footer {
 
 
 
+.desktopOnly {
+  visibility: visible;
+  display: inline-block;
+}
 
+.mobileOnly {
+  visibility: hidden;
+  display: none;
+}
 
 @media (max-width:767px) {
   .mobileOnly {
@@ -320,10 +318,10 @@ footer {
 }
 
 @media (min-width: 768px) {
-    .pull-right-sm {
-        float: right;
-    }
-    .align-right-sm {
-      text-align: right;
-    }
+  .pull-right-sm {
+      float: right;
+  }
+  .align-right-sm {
+    text-align: right;
+  }
 }
