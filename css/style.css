@@ -114,13 +114,8 @@ figure div {
   text-align: center;
 }
 
-.iPhoneImg {
-  height: 70vh;
-}
-
 .iPhoneImg img {
   width: 60%;
-  /*margin: 22vh 0;*/
 }
 
 .iPadImg img {
@@ -174,24 +169,6 @@ section h3 {
   height: 1750px;
   background-size: contain;
 }*/
-
-/*.sectionTriangleBotArea {
-  height: 100vh;
-  background-image: url("/img/computer_with_triangle.jpg.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}*/
-
-.sectionTriangleBotArea {
-  min-height: 75vh;
-  max-width: 100%;
-}
-
-.sectionTriangleBotArea img {
-  width: 100%;
-  min-height: 75vh;
-}
 
 .sectionBotImg {
   position: relative;
