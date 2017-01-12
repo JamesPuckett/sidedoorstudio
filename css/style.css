@@ -141,10 +141,10 @@ figure div {
 section {
   max-width: 100%;
 }
-
+/*
 .triArea {
   background-image: linear-gradient(to left, #f1eff0, #f6f6f6, #fafafa, #f8f8f8, #f8f8f8, #f8f8f8);
-}
+}*/
 
 .sectionTriangle {
   position: relative;
@@ -166,20 +166,21 @@ section h3 {
   font-size: 32px;
 }
 
-/*.sectionTriangleBotArea{
+.triArea{
   background-image: url("/img/Computer_filler.png");
   background-position: bottom;
   background-repeat: no-repeat;
   height: 1750px;
   background-size: contain;
-}*/
+}
 
 .sectionBotImg {
   position: relative;
-  /*bottom: 0;*/
-  left: 0;
+  bottom: 0;
+  /*left: 0;*/
   width: 100%;
-  z-index: -1;
+  z-index: 1;
+  /*margin-top: -492px;*/
 }
 
 .endorse {
@@ -270,7 +271,7 @@ footer {
 }
 
 .socialMedia img {
-  height: 25px;
+  height: 35px;
   width: 35px;
   border: 0;
   margin-right: 18px;
