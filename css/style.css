@@ -2,6 +2,22 @@
 a:not(.default):visited { color: #ffd401; }
 a:not(.default):hover { text-decoration: none;}*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-size: 10px;
+}
+
 div.jumbotron {
   background-image: url('/img/Project_Header_Image.jpg');
   background-size: cover;
@@ -22,8 +38,10 @@ figure {
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 50%;
-  width: 75%;
+  max-height: 50%;
+  min-height: 40%;
+  min-width: 50%;
+  max-width: 100%;
 }
 
 .topTriangleText {
@@ -36,11 +54,11 @@ figure {
 }
 
 .topTriangleText h4 {
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 .topTriangleText h2 {
-  font-size: 48px;
+  font-size: 4.8rem;
   color: #fff;
   width: 60%;
   float: right;
@@ -146,6 +164,10 @@ section {
   background-image: linear-gradient(to left, #f1eff0, #f6f6f6, #fafafa, #f8f8f8, #f8f8f8, #f8f8f8);
 }*/
 
+.sectionTriangleBotArea {
+  height: auto;
+}
+
 .sectionTriangle {
   position: relative;
   width: 91.5%;
@@ -166,13 +188,17 @@ section h3 {
   font-size: 32px;
 }
 
-.triArea{
+/*.triArea{
   background-image: url("/img/Computer_filler.png");
   background-position: bottom;
   background-repeat: no-repeat;
   height: 1750px;
   background-size: contain;
-}
+}*/
+
+/*.triArea img {
+  width: 100%;
+}*/
 
 .sectionBotImg {
   position: relative;
@@ -180,6 +206,7 @@ section h3 {
   /*left: 0;*/
   width: 100%;
   z-index: 1;
+  margin-top: -30px;
   /*margin-top: -492px;*/
 }
 
@@ -302,6 +329,17 @@ footer {
 .mobileOnly {
   visibility: hidden;
   display: none;
+}
+
+@media (max-width:767px) {
+  div.jumbotron {
+    height: 50vh;
+  }
+  .topTriangle {
+    position: absolute;
+    bottom: 367px;
+    min-height: 22.5%;
+  }
 }
 
 @media (max-width:767px) {
