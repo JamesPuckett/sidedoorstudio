@@ -18,21 +18,57 @@ time, mark, audio, video {
   font-size: 10px;
 }
 
-nav {
+a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+header{
   position: fixed;
-  max-height: 50px;
-  background-color: blue;
+  width: 100%;
+  z-index: 100000;
+}
+
+nav {
+  height: 110px;
+  background-color: none;
+  transition: 2s;
 }
 
 nav img {
-  height: 48px;
+  height: 50%;
   margin-left: 35px;
   margin-top: 30px;
   display: inline-block;
+  opacity: 1;
+}
+
+nav div {
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+  margin-right: 50px;
 }
 
 nav li {
   display: inline-block;
+  margin-top: 40px;
+}
+
+nav li a {
+  font-size: 1.6em;
+  margin-left: 20px;
+  color: #fff;
+  opacity: 1;
+}
+
+nav li a:hover {
+  color: #fff;
+}
+
+nav li span a {
+  margin-left: 0;
 }
 
 div.jumbotron {
@@ -133,6 +169,21 @@ aside {
     left: 0;
     top: 0;
     width: 100%;
+    height: 1;
+    border-top: 2px solid #ffd400;
+    content: "";
+}
+
+.borderBottomYellow {
+    position: relative;
+    padding-bottom: 13px;
+}
+
+.borderBottomYellow::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 105%;
     height: 1;
     border-top: 2px solid #ffd400;
     content: "";
