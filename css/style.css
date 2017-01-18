@@ -18,6 +18,23 @@ time, mark, audio, video {
   font-size: 10px;
 }
 
+nav {
+  position: fixed;
+  max-height: 50px;
+  background-color: blue;
+}
+
+nav img {
+  height: 48px;
+  margin-left: 35px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+}
+
 div.jumbotron {
   background-image: url('/img/Project_Header_Image.jpg');
   background-size: cover;
