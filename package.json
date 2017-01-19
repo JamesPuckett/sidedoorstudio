@@ -1,0 +1,28 @@
+{
+  "name": "sidedoorstudio",
+  "version": "2.0.0",
+  "description": "site for sidedoor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamespuckett/sidedoorstudio.git"
+  },
+  "author": "James Puckett",
+  "scripts": {
+    "test": "mocha",
+    "start": "cd . && http-server -c-1",
+    "server":"http-server"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/jamespuckett/sidedoorstudio#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "jsdom": "^9.4.2",
+    "mocha": "^2.4.5",
+    "nock": "^8.0.0"
+  }
+}
