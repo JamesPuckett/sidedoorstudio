@@ -29,15 +29,15 @@ header{
 }
 
 nav {
-  height: 110px;
+  height: 90px;
   background-color: none;
   transition: 2s;
 }
 
 nav img {
-  height: 50%;
+  height: 45%;
   margin-left: 35px;
-  margin-top: 30px;
+  margin-top: 20px;
   display: inline-block;
   opacity: 1;
 }
@@ -57,7 +57,7 @@ nav li {
 }
 
 nav li a {
-  font-size: 1.6em;
+  font-size: 1.2em;
   margin-left: 20px;
   color: #fff;
   opacity: 1;
@@ -102,19 +102,22 @@ figure {
   bottom: 0;
   right: 0;
   text-align: right;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   margin-right: 70px;
+  width: 33%;
 }
 
 .topTriangleText h4 {
-  font-size: 3.2rem;
+  font-size: 2rem;
+  color: #404042;
 }
 
 .topTriangleText h2 {
-  font-size: 4.8rem;
+  font-size: 4.2em;
   color: #fff;
-  width: 60%;
   float: right;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .AtAGlanceWholeArea {
@@ -405,7 +408,7 @@ footer {
   }
   .topTriangle {
     position: absolute;
-    bottom: 367px;
+    bottom: 326px;
     min-height: 22.5%;
   }
 }
