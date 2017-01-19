@@ -18,6 +18,10 @@ time, mark, audio, video {
   font-size: 10px;
 }
 
+p {
+  font-size: 1.6em;
+}
+
 a:hover, a:visited, a:active {
   text-decoration: none;
 }
@@ -110,6 +114,7 @@ figure {
 .topTriangleText h4 {
   font-size: 2rem;
   color: #404042;
+  margin-bottom: -10px;
 }
 
 .topTriangleText h2 {
@@ -158,6 +163,11 @@ aside {
   padding-top: 30px;
 }
 
+.specs p {
+  max-width: 60%;
+  font-weight: 300;
+}
+
 /*.specs div:first-of-type{
   padding-top: 40px;
 }*/
@@ -179,7 +189,7 @@ aside {
 
 .borderBottomYellow {
     position: relative;
-    padding-bottom: 13px;
+    padding-bottom: 10px;
 }
 
 .borderBottomYellow::after{
