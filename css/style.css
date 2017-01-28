@@ -32,9 +32,9 @@ nav {
 }
 
 nav img {
-	height: 45%;
+	height: 50%;
 	margin-left: 35px;
-	margin-top: 20px;
+	margin-top: 25px;
 	display: inline-block;
 	opacity: 1;
 }
@@ -54,7 +54,7 @@ nav li {
 }
 
 nav li a {
-	font-size: 1.2em;
+	font-size: 14px;
 	margin-left: 20px;
 	color: #fff;
 	opacity: 1;
@@ -261,13 +261,20 @@ figure div {
 	height: 100vh;
 }
 
+.iPad {
+	height: 100vh;
+}
+
 .iPhoneImg img {
 	height: 88%;
 	margin-top: 12%;
+	max-width: 80%;
 }
 
 .iPadImg img {
-	width: 40%;
+	height: 88%;
+	margin-top: 12%;
+	max-width: 80%;
 }
 
 .figAreaGray {
@@ -306,7 +313,7 @@ section {
 	height: 26%;
 }
 
-section h3 {
+.sectionTriangleBotArea h3 {
 	position: absolute;
 	margin-left: 130px;
 	margin-top: -350px;
@@ -350,7 +357,20 @@ section h3 {
 	padding: 0;
 	right: 0;
 	margin-top: -225px;
-	margin-right: 10%;
+	margin-right: 8%;
+}
+
+.endorse h4 span {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.endorse p {
+	color: #333;
+}
+
+.HOLDER {
+	padding-top: 100px;
 }
 
 .HOLDER div {
@@ -358,8 +378,15 @@ section h3 {
 }
 
 .HOLDERtext {
-	margin: 100px auto 0 auto;
-	max-width: 60%;
+	margin: 75px auto 0 auto;
+	max-width: 80%;
+}
+
+.HOLDERtext p {
+	font-size: 18px;
+	color: #333;
+	line-height: 1.8;
+	margin-left: 40px;
 }
 
 .HOLDER button {
@@ -370,6 +397,7 @@ section h3 {
 	margin-top: 20px;
 	box-shadow: 0 0 0;
 	border: 0;
+	margin-left: 40px;
 }
 
 .HOLDERimg {
@@ -386,12 +414,19 @@ section h3 {
 	margin: 50px auto;
 	font-size: 30px;
 	color: #333;
+	margin-top: 150px;
 }
 
 .BandN p a {
 	display: inline;
-	font-size: 24px;
+	font-size: 16px;
 	color: #333;
+	font-weight: bold;
+}
+
+.BandN p {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .footImg {
@@ -450,6 +485,29 @@ footer {
 .mobileOnly {
 	visibility: hidden;
 	display: none;
+}
+
+@media (max-width: 1024px) {
+	.iPhone {
+		height: 100vh;
+	}
+	.iPhoneImg {
+		height: 33.33%;
+	}
+	.iPhoneImg img {
+		height: 95%;
+		margin-top: 1%;
+	}
+	.iPad {
+		height: 100vh;
+	}
+	.iPadImg {
+		height: 50%;
+	}
+	.iPadImg img {
+		height: 95%;
+		margin-top: 4%;
+	}
 }
 
 @media (max-width:767px) {
@@ -555,6 +613,18 @@ footer {
 	}
 }
 
+@media (max-width:1065px) {
+	.sectionTriangleBotArea h3 {
+		margin-left: 110px;
+		margin-top: -320px;
+		width:50%;
+	}
+	.endorse {
+		margin-top: -200px;
+		margin-right: 5%;
+	}
+}
+
 .clearfix:after {
 	content: " ";
 	/* Older browser do not support empty content */
@@ -562,4 +632,56 @@ footer {
 	display: block;
 	height: 0;
 	clear: both;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:970px) {
+	.sectionTriangleBotArea h3 {
+		margin-left: 110px;
+		margin-top: -290px;
+		font-size: 28px;
+	}
+	.endorse {
+		margin-top: -130px;
+		margin-right: 5%;
+	}
+	.endorse h4 span {
+		font-size: 14px;
+	}
+	.endorse p {
+		font-size: 10px;
+	}
+}
+
+
+@media (max-width:767px) {
+	.sectionTriangleBotArea h3 {
+		margin-left: 50px;
+		margin-top: -220px;
+		font-size: 18px;
+		width: 60%;
+		line-height: 1.5;
+	}
+	.endorse {
+		z-index: 100;
+		padding: 0;
+		right: 0;
+		margin-top: -70px;
+		margin-right: 5%;
+	}
+	.endorse h4 span {
+		font-size: 12px;
+	}
+	.endorse p {
+		font-size: 10px;
+		max-width: 80%;
+		float: right;
+	}
 }
